@@ -1,0 +1,58 @@
+body{
+    margin:0;
+}
+.container {
+    background-color: purple;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    /* width:50vw; */
+}
+.child{
+    background-color: orange;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    border:1px solid grey;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    padding: 16px;
+}
+.image{
+    width:30%;
+    flex: 0 0 auto;
+    font-size: 0;
+}
+img{
+    max-width: 100%;
+}
+.status{
+    display: flex;
+    align-items: center;
+    color:grey;
+}
+.title{
+font-weight: bold;
+font-size:20px;
+}
+.description, .author{
+    color:grey;
+    line-height: 1.5;
+}
+.status, .title, .description{
+    margin-bottom: 20px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.avatarinfo{
+    margin-left: 20px;
+}
